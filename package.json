@@ -1,0 +1,43 @@
+{
+  "name": "leetcode-js",
+  "version": "1.0.0",
+  "description": "JavaScript版算法练习",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/johninch/leetcode-js.git"
+  },
+  "keywords": [
+    "leetcode"
+  ],
+  "author": "johninch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/johninch/leetcode-js/issues"
+  },
+  "homepage": "https://github.com/johninch/leetcode-js#readme",
+  "dependencies": {
+    "@babel/core": "7.1.2",
+    "@babel/preset-env": "7.1.6",
+    "babel-core": "7.0.0-bridge.0",
+    "babel-jest": "23.6.0",
+    "babel-preset-env": "1.7.0",
+    "eslint-plugin-jest": "22.0.0",
+    "jest": "23.6.0",
+    "regenerator-runtime": "0.12.1"
+  },
+  "devDependencies": {
+    "eslint": "5.9.0",
+    "eslint-config-standard": "12.0.0",
+    "eslint-plugin-import": "2.14.0",
+    "eslint-plugin-node": "8.0.0",
+    "eslint-plugin-promise": "4.0.1",
+    "eslint-plugin-standard": "4.0.0"
+  }
+}
