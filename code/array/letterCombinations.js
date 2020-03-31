@@ -11,8 +11,8 @@ function letterCombinations(str) {
 
         let tmp = [];
         // 分治：先把前两个映射合并
-        for (let i = 0, il = arr[0].length; i < il; i++) {
-            for (let j = 0, jl = arr[1].length; j < jl; j++) {
+        for (let i = 0, a0l = arr[0].length; i < a0l; i++) {
+            for (let j = 0, a1l = arr[1].length; j < a1l; j++) {
                 tmp.push(`${arr[0][i]}${arr[1][j]}`)
             }
         }

@@ -24,9 +24,9 @@ const hasGroupsSizeX = (deck) => {
     // 求所有分组长度
     let lenArr = arr.map(item => item.length)
 
-    // 工具函数，求两数间最大公约数
-    let gcd = (x, y) => {
-        return y === 0 ? x : gcd(y, x%y);
+    // 工具函数，求两数间最大公约数 - 辗转相除法：gcd(a,b) = gcd(b,a mod b)
+    let gcd = (a, b) => {
+        return b === 0 ? a : gcd(b, a%b);
     }
 
     // 本质是判断所有分组长度间是否存在除1之外的最大公约数（多个数字求最大公约数）
