@@ -2,7 +2,8 @@
  * @param {TreeNode} root
  * @return {Number} 
  */
-let maxDepth = (root) => {
+// 二叉树的深度就是指其最大深度。
+const maxDepth = (root) => {
     if (!root) {
         return 0
     }
@@ -13,7 +14,7 @@ let maxDepth = (root) => {
 // 左右子树都不为空：左子树深度和右子树最小深度的最小值 + 1
 // 左树为空：右子树最小深度的最小值 + 1
 // 右树为空：左子树最小深度 + 1
-let minDepth = (root) => {
+const minDepth = (root) => {
     if (!root) {
         return 0;
     }
